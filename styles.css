@@ -1,0 +1,133 @@
+*{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+button{
+    font-size: 20px;
+    border: 1px solid;
+    background-color: white; 
+    width: 10vw;
+    position: absolute;
+    
+}
+
+button.number1{
+    margin-top: 523px;  
+    margin-left: -22%;
+    
+}
+button.number2{
+    margin-top: 523px;  
+    margin-left: -11%;
+    
+}
+button.number3{
+    margin-top: 523px;  
+    
+}
+button.number4{
+    margin-top: 556px;
+    margin-left: -22%;
+}
+button.number5{
+    margin-top: 556px;
+    margin-left: -11%;
+}
+button.number6{
+    margin-top: 556px;
+}
+button.number7{
+    margin-top: 586px;
+    margin-left: -22%;
+}
+button.number8{
+    margin-top: 586px;
+    margin-left: -11%;
+}
+button.number9{
+    margin-top: 586px;
+}
+button.numbero{
+    margin-top: 620px;
+    margin-left: -11%;
+}
+button.dot{
+    margin-left: -22%;
+    margin-top: 620px;
+}
+button.equal{
+    margin-top: 620px;
+}
+button.add{
+    margin-top: 620px;
+    margin-left: 11%;
+}
+button.sub{
+    margin-top: 586px;
+    margin-left: 11%;
+}
+button.mul{
+    margin-top: 556px;
+    margin-left: 11%;
+}
+button.divide{
+    margin-top: 523px;
+    margin-left: 11%;
+}
+button.clear{
+    height: 5vw;
+    width: 21vw;
+    margin-top: 442px;
+    margin-left: -22%;
+    background-color: antiquewhite;
+}
+button.del{
+    margin-top: 442px;
+    height: 5vw;
+    width: 21vw;
+    background-color: orangered;
+}
+div.sol{
+    margin-top: 330px;
+    margin-left: 430px;
+    background-color: white;
+    height: 80px;
+    width: 600px;
+    text-align: end;
+    font-size: 40px;
+    position: absolute;
+}
+div.gray{
+    margin-top: 300px;
+    margin-left: 400px;
+    background-color: gray;
+    width: 700px;
+    height: 400px;
+    position: absolute;
+}
+
+
+
+.icons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .fa-github {
+    margin: 10px;
+    color: black;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .fa-github:hover {
+    transform: rotate(360deg) scale(3);
+  }
